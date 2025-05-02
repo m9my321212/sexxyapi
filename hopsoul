@@ -3,7 +3,7 @@ local JobIdList, LastScrapeTime
 local function GetJobIds()
     local success, response = pcall(function()
         return request({
-            Url = "https://hostserver.porry.store/bloxfruit/bot/JobId/fullmoon",
+            Url = "https://ducdesigner.site/JobId/soul",
             Method = "GET"
         })
     end)
